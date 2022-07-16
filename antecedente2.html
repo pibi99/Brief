@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Antecedente 2</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 992px) {
+                .container {
+                    max-width: 900px;
+                }
+            }
+            .card,
+            .card-img-top {
+                border: none;
+                border-radius: 0 0;
+            }
+        </style>
+    </head>
+    <body class="bg-light">
+        <header class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h2 class="text-center mt-5 text-muted fs-4">Fabiola Sánchez</h2>
+
+                    <h1 class="text-center mt-3 mb-4 fs-2"><a href="index.html">Saga Resident Evil, últimos juegos</a></h1>
+
+                    <p class="lead text-center mx-auto w-75">Este sitio Web permitirá conocer a través de una página interactiva, la serie de los últimos juegos de Resident Evil de la compañia Campom. La Web abarcará los últimos juegos mediante la descripción de la historia
+                    con sus personajes principales, ademas de proveer información de la empresa que desarrolló los videojuegos.</p>
+                </div>
+            </div>
+        </header>
+
+        <section class="container" id="antecedentes">
+            <div class="row">
+                <div class="col-12 pt-3 pb-5">
+                    <h3 class="text-center mt-5 mb-4"><a href="index.html">&larr;</a> | Fall Guys Website</h3>
+
+                    <img src="img/fallguys.png" class="w-100 mb-3 shadow-sm" />
+                    <p class="m-4 text-muted">
+                        Esta pagina,a una primera vista cautiva por su simpleza, colores y diseño que se encuetra en ella. Uno de los elementos considerados relevantes de esta página web es la diagramación y el como se presenta la información en ella, es facil de contemplar y utilizar, además de que permite una buena interacción.
+                    </p>
+
+                    <canvas id="grafico" class="w-50 mx-auto my-5"></canvas>
+
+                    <p class="m-4 text-muted">
+                        Según el reporte de lighthouse, hay ciertas cosas que mejorar pero de los 4 antecedentes es una de las con mejores puntajes. Algunas cosas que podría mejorar son los colores de fondo y primer plano y el texto descriptivo en los vínculos.
+
+                    <h3 class="text-center mt-5 mb-4 text-decoration-underline">Otros antecedentes</h3>
+
+                    <div class="row row-cols-1 row-cols-md-3 pb-3">
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gta.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Grand Theft Auto Website</h6>
+                                    <p class="card-text small"><a href="antecedente0.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/warzone.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Call of Duty Warzone Website</h6>
+                                    <p class="card-text small"><a href="antecedente1.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/logocap.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Capcom Website</h6>
+                                    <p class="card-text small"><a href="antecedente3.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-secondary">
+            <div class="container text-white-50">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <a href="index.html">Saga Resident Evil, últimos juegos</a>
+                            <!--reemplaza el # que sigue con vínculo a tu propio GitHub-->
+                            <a href="https://github.com/fab9904" target="_blank" class="d-none d-lg-inline">Fabiola Sánchez 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.8.0/chart.min.js"
+            integrity="sha512-sW/w8s4RWTdFFSduOTGtk4isV1+190E/GghVffMA9XczdJ2MDzSzLEubKAs5h0wzgSJOQTRYyaz73L3d6RtJSg=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        ></script>
+        <script>
+            const config = {
+                type: "radar",
+                data: {
+                    labels: ["PERFORMANCE", "ACCESIBILITY", "BEST PRACTICES", "SEO"],
+                    datasets: [
+                        {
+                            data: [31, 73, 92, 83],
+                            fill: true,
+                            backgroundColor: "rgba(255, 99, 132, 0.2)",
+                            borderColor: "rgb(255, 99, 132)",
+                        },
+                    ],
+                },
+                options: {
+                    plugins: {
+                        legend: {
+                            display: false,
+                        },
+                    },
+                    scale: {
+                        min: 0,
+                        max: 100,
+                    },
+                },
+            };
+            const myChart = new Chart(document.getElementById("grafico"), config);
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
+        </script>
+    </body>
+</html>

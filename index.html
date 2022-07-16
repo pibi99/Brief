@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Bootstrap demo</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous" />
+        <style>
+            @media (min-width: 992px) {
+                .container {
+                    max-width: 900px;
+                }
+            }
+            .card,
+            .card-img-top {
+                border: none;
+                border-radius: 0 0;
+            }
+        </style>
+    </head>
+    <body class="bg-light">
+        <header class="container">
+            <div class="row">
+                <div class="col-12 py-3">
+                    <h2 class="text-center mt-5 text-muted fs-4">Fabiola Sánchez</h2>
+
+                    <h1 class="text-center mt-3 mb-4 fs-2">Saga Resident Evil, últimos juegos</h1>
+
+                    <p class="lead text-center mx-auto w-75">
+                        Este sitio Web permitirá conocer a través de una página interactiva, la serie de los últimos juegos de Resident Evil de la compañia Campom. La Web abarcará los últimos juegos mediante la descripción de la historia
+                        con sus personajes principales, ademas de proveer información de la empresa que desarrolló los videojuegos.
+                    </p>
+
+                    <h3 class="text-center mt-5 mb-4 text-decoration-underline">Proto-personas</h3>
+
+                    <!--PROTO-PERSONA 1-->
+                    <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
+                        <div class="col-sm-4">
+                            <img src="img/p1.webp" class="w-100" />
+                        </div>
+                        <div class="col-sm-8 p-4">
+                            <h4 class="fs-5">Ana</h4>
+                            <p>
+                                24 años, estudiante universitaria que vive con sus dos hermanos y sus padres. Suele ir a clases 4 veces a la semana y en su poco tiempo libre juega su saga favorita de juegos de terror y suspenso. No falta a
+                                clases, pero nunca administra bien sus tiempos.
+                            </p>
+                            <p>
+                                Busca videojuegos que sean de su agrado a traves del celular, pero estos suelen ser para computador ya que es lo que mas le gusta, además de que aquellos los juegos requieren de tarjetas graficas y una buena
+                                memoria ram.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--PROTO-PERSONA 2-->
+                    <div class="row align-items-center bg-white mb-4 g-0 shadow-sm">
+                        <div class="col-sm-4 order-sm-2">
+                            <img src="img/p2.webp" class="w-100" />
+                        </div>
+                        <div class="col-sm-8 order-sm-1 p-4">
+                            <h4 class="fs-5">Carlos</h4>
+                            <p>
+                                33 años, trabaja en una empresa de reciclaje y vive solo con su su perro en un departamento en el centro de la ciudad. Suele ir a trabajar por la mañana de lunes a sábado y usa su tiempo libre en jugar
+                                videojuegos y salir al parque con su perro. No duerme las horas suficientes y nunca sale de casa a menos que sea para trabajar o salir con su perro.
+                            </p>
+                            <p>
+                                Busca tener su día ocupado en sus intereses personales, por lo tanto el dinero juntado de su trabajo lo usó para un nuevo PC en vez de un celular ya que no suele usarlo mucho y es ahí donde busca la
+                                información sobre nuevos lanzamientos de juegos en su tiempo libre.
+                            </p>
+                        </div>
+                    </div>
+
+                    <!--PROTO-PERSONA 3-->
+                    <div class="row align-items-center bg-white mb-5 g-0 shadow-sm">
+                        <div class="col-sm-4">
+                            <img src="img/p3.webp" class="w-100" />
+                        </div>
+                        <div class="col-sm-8 p-4">
+                            <h4 class="fs-5">Nicolás</h4>
+                            <p>
+                                15 años, vive con dos hermanas y sus padres, va al liceo de lunes a viernes. Siempre va a clases en la mañana y en las tardes además de hacer trabajos, juega sus videojuegos favoritos. Lo que nunca hace es
+                                callarse cuando juega, es su manera de expresarse.
+                            </p>
+                            <p>
+                                Busca juegos y recibe recomendaciones de amigos, no suele usar mucho su celular para jugar, sino que para comunicarse con sus compañeros de clases para hacer sus trabajos, pero si tiene algunos juegos, aunque
+                                prefiere los videojuegos de computador para poder tener una mejor experiencia.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section class="bg-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 py-3">
+                        <h3 class="text-center mt-5 mb-4 text-decoration-underline">Moodboard</h3>
+
+                        <!--EL MOODBOARD-->
+
+                        <img src="img/moodboard2.jpg" class="w-100 shadow-sm" alt="Describa el Mood en el Board" />
+
+                        <h3 class="text-center mt-5 mb-4 text-decoration-underline">Colores</h3>
+
+                        <!--LA PALETA CROMÁTICA-->
+
+                        <!--Esto se programa más abajo, en línea 212-->
+
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 20" class="shadow-sm mb-3">
+                            <g id="colores"></g>
+                        </svg>
+
+                        <p class="mx-4 text-muted">
+                            Una carta cromática presenta colores sin proporción. Una paleta cromática sí lo hace (la proporción es la diferencia entre ambas). En una paleta cromática también es importante cuidar la posición de cada color,
+                            para la interacción más efectiva con su vecino inmediato. Al momento de diseñarla se recomienda tener en mente, por un lado, la posibilidad de trabajar con
+                            <a href="https://arte.plus/aprende-la-armonia-del-color/" target="_blank">armonías de color</a> y, por otro, la de trabajar con
+                            <a href="https://www.pinturayartistas.com/los-7-contrastes-de-colores-de-johannes-itten/" target="_blank">esquemas de contraste</a>.
+                        </p>
+
+                        <h3 class="text-center mt-5 mb-4 text-decoration-underline">Tipografías</h3>
+
+                        <div class="row mt-2 mb-5">
+                            <!-- PRIMERA FUENTE DEBE ESTAR DISPONIBLE EN GOOGLE FONTS-->
+                            <div class="col-md-6 mb-3">
+                                <div class="card shadow-sm">
+                                    <img src="img/josefin.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                    <div class="card-body">
+                                        <h4 class="card-title fs-5">Josefin Sans</h4>
+                                        <p class="card-text small">
+                                            La idea de esta tipografía es que sea geométrica, elegante, con un aire vintage, para usar en tamaños más grandes. Está inspirado en diseños geométricos sans serif de la década de 1920. La altura
+                                            está a mitad de camino desde la línea de base hasta la altura de la tapa, una proporción inusual. Esta tipografía va a ser usada en los párrafos mas grandes de texto.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- SEGUNDA FUENTE TAMBIÉN DEBE ESTAR DISPONIBLE EN GOOGLE FONTS-->
+                            <div class="col-md-6 mb-3">
+                                <div class="card shadow-sm">
+                                    <img src="img/expletus.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                    <div class="card-body">
+                                        <h4 class="card-title fs-5">Expletus Sans</h4>
+                                        <p class="card-text small">
+                                            Expletus Sans es un tipo de letra de visualización, lo que significa que no se recomienda para textos largos. Sin embargo, es muy eficaz para configurar encabezados y otros textos de gran tamaño,
+                                            debido a su forma de atraer al lector. El uso de esta tipografía se verá en los títulos y subtítulos para destacar aquellos textos.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="container" id="antecedentes">
+            <div class="row">
+                <div class="col-12 pt-3 pb-5">
+                    <h3 class="text-center mt-5 mb-4 text-decoration-underline">Antecedentes</h3>
+
+                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 pb-3">
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/gta.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Grand Theft Auto Website</h6>
+                                    <p class="card-text small"><a href="antecedente0.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/warzone.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Call of Duty Warzone Website</h6>
+                                    <p class="card-text small"><a href="antecedente1.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/fallguys2.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Fall Guys Website</h6>
+                                    <p class="card-text small"><a href="antecedente-2.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-3">
+                            <div class="card h-100 shadow-sm">
+                                <img src="img/logocap.jpeg" class="card-img-top" alt="Nombre de la tipo" />
+                                <div class="card-body">
+                                    <h6 class="card-title">Capcom Website</h6>
+                                    <p class="card-text small"><a href="antecedente3.html" class="stretched-link">Ver análisis &rarr;</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h3 class="text-center mt-5 mb-4 text-decoration-underline">Wireframe de portada</h3>
+
+                    <img src="img/portada.jpg" class="w-100 mb-3" />
+
+                    <p class="mx-4 text-muted">
+                        Lo destacabable de el antecedente de la página de Call of Duty es la manera de diagramacion de las imágenes al igual que el carrusel, lo cual me parece muy interesante. Lo reacatado de Capcom al igual que Call of Duty es la manera en la que se dassrolla el carrusel y ademas la manera en la que son presesntados los antecedentes, es decir, los links del final. De Fall Guys y Grand Theft Auto lo rescatado más que nada es la diagramación de la información que se muestra en la página. La lectura de mi wireframe va a una entrada con un carrusel que indicará una serie de imágenes de los Resident Evil sacados por Capcom, y luego de eso iría a mostrar los últimos juegos con su historia y personajes principales de cada uno. Esta diagramación va a que su modo de lectura sea fácil de comprender.
+                    </p>
+
+                    <h3 class="text-center mt-5 mb-4 text-decoration-underline">Wireframe de página interior</h3>
+
+                    <img src="img/wireframeinterior_page-0001.jpg" class="w-100 mb-3" />
+
+                    <p class="mx-4 text-muted">
+                        Lo que se vería aqui sería una página mas interactiva que la portada mostrada anteriormente, rescatando diferentes diagramaciones de los variados antecedentes y que muestren una información más detallada.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <footer class="bg-secondary">
+            <div class="container text-white-50">
+                <div class="row py-3">
+                    <div class="col-12">
+                        <p class="d-flex justify-content-between small p-1 m-0">
+                            <a href="index.html">Saga Resident Evil, Ultimos juegos</a>
+                            <!--reemplaza el # que sigue con vínculo a tu propio GitHub-->
+                            <a href="https://github.com/fab9904" class="d-none d-lg-inline">Fabiola Sánchez © 2022</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            // Reemplaza los colores dentro del paréntesis cuadrado, respetando las comillas.
+            // Si necesitas que un color ocupe más espacio en la paleta: debes repetirlo.
+            var colores = ["#1c045e", "#1c045e", "#1c045e", "#1c045e", "#1c045e", "#f2f2f2", "#cfaba9", "#410a21", "#070233", "#000efb", "#1E3040", "#000000"];
+            // No reemplaces nada de lo que sigue.
+            var n = colores.length;
+            var w = 100 / n;
+            for (var x = 0; x < n; x++) {
+                document.getElementById("colores").innerHTML += '<rect width="' + w + '" height="20" x="' + x * w + '" y="0" fill="' + colores[x] + '" stroke="' + colores[x] + '"/>';
+            }
+            document.querySelectorAll("a").forEach((a) => a.classList.add("link-dark"));
+        </script>
+    </body>
+</html>
